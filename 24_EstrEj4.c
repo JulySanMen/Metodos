@@ -9,7 +9,7 @@ struct Atleta {
 int main() {
     struct Atleta atl[3];
     printf("\tATLETAS\n");
-    for(int i=0;i<3;i++){
+    for(int i=0;i<10;i++){
         printf("ATLETA %d\n", i +1);
         printf("Nombre: ");
         fgets(atl[i].nombre, sizeof(atl[i].nombre), stdin);
@@ -25,7 +25,7 @@ int main() {
         getchar(); 
     }
     int MasMedallas=0;
-    for(int i=0;i<3;i++){
+    for(int i=0;i<10;i++){
         if(atl[i].num_medallas > atl[MasMedallas].num_medallas){
             MasMedallas = i;
         }

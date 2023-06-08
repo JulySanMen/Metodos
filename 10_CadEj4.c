@@ -22,7 +22,5 @@ int main(){
         printf("La palabra 1 es la mnoer\n");
         printf("La palabra 2 es la mayor\n");
     }
-    
-
     return 0;
 }
